@@ -26,6 +26,7 @@ class Car {
         Car(string mk, string md, int yr) : make(mk), model(md), year(yr) {
             assignLevel();
         }
+
         bool assignLevel() {
 // we will be working with Toyota, Ford, Honda and they will be assigned accordingly.
             if (make == "Toyota") {
@@ -62,7 +63,7 @@ int main() {
 
     cout << "\nWelcome to the Parking Lot Car Rental!" << endl;
 
-    cout << "Enter your desire car make: (Toyota), (Ford), (Honda): ";
+    cout << "Enter your desired car make: (Toyota), (Ford), (Honda): ";
     getline(cin, make);
     cout << "Enter the car model: ";
     getline(cin, model);
@@ -72,7 +73,7 @@ int main() {
 
 // in this section we will create the car object and display the rental car information
 Car rentalCar(make, model, year);
-
+if (rentalCar.assignLevel()) {
 rentalCar.display();
 
 
