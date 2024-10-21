@@ -52,3 +52,14 @@ class Car {
             }
         }
     };
+
+// In this section we will be implementing our control structure and allow the user's input
+int main() {
+    string make, model;
+    int year;
+
+    
+
+
+
+}
