@@ -63,7 +63,7 @@ int main() {
 
     cout << "\nWelcome to the Parking Lot Car Rental!" << endl;
 
-    cout << "Enter your desired car make: (Toyota), (Ford), (Honda): ";
+    cout << "Which is your desired car make? Toyota, Ford, Honda: ";
     getline(cin, make);
     cout << "Enter the car model: ";
     getline(cin, model);
