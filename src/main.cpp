@@ -63,7 +63,7 @@ int main() {
     cout << "Enter your desire car make: (Toyota), (Ford), (Honda): ";
     getline(cin, make);
     cout << "Enter the car model: ";
-    getline(cin, make);
+    getline(cin, model);
     cout << "Enter the cra year: ";
     cin >> year;
     cin.ignore();
