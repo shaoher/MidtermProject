@@ -12,3 +12,11 @@ using namespace std;
 // where renters would be directed to what level the rented car is located based on the make, model, and year of the car 
 
 enum level { LEVEL1 = 1, LEVEL2, LEVEL3};
+
+// now we are going to create a class for our rental cars along with the private members
+class Car {
+    private:
+    string make;
+    string model;
+    int year;
+    level;
