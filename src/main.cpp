@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 // For this project I need to create a project that has the following: 
 // Class
 // variable
