@@ -23,7 +23,9 @@ class Car {
 
 // now we are going to add public members. A public member is accessible from outside the class. 
     public:
-        Car(string make, string model, int year) : make(make), model(model), year(year), level {}
+        Car(string mk, string md, int yr) : make(mk), model(md), year(yr) {
+            assignLevel();
+        }
         bool assignLevel() {
 // we will be working with Toyota, Ford, Honda and they will be assigned accordingly.
             if (make == "Toyota") {
@@ -44,8 +46,8 @@ class Car {
 
 // in this section we will diaplay the car information and where it is located
         void display() {
-            cout << "Car Make: " << make << "\nModel: " << model << "\nYear: " << year << endl;
             if (assignLevel()) {
+                cout << "Car Make: " << make << "\nModel: " << model << "\nYear: " << year << endl;
                 cout << "Parking Level: " << level << endl;
             } else {
                 cout << "The make entered is unavailable." << endl;
