@@ -74,9 +74,7 @@ Car rentalCar(make, model, year);
 rentalCar.display();
 
 
-
-
-
-
-
+// Thank our customer for using our parking lot car rental
+cout << "Thank you for using the Parking Lot Car Rental!" << endl;
+return 0;
 }
