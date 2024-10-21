@@ -25,3 +25,19 @@ class Car {
     public:
         Car(string make, string model, int year) : make(make), model(model), year(year), level {}
         bool assignLevel() {
+// we will be working with Toyota, Ford, Honda and they will be assigned accordingly.
+            if (make == "Toyota") {
+                level = LEVEL1;
+                return true;
+            } else if (make == "Ford") {
+                level = LEVEL2;
+                return true;
+            } else if (make == "Honda") {
+                level = LEVEL3;
+                return true;
+// we've added all 3 of our make of the cars. we have to expect that the user may type other make that aren't included
+// so therefore we must have to add an else statement 
+            } else {
+                return false;
+            }
+        }
