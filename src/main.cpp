@@ -75,6 +75,9 @@ int main() {
 Car rentalCar(make, model, year);
 if (rentalCar.assignLevel()) {
 rentalCar.display();
+} else {
+    cout << "The make entered is unavailable." << endl;
+}
 
 
 // Thank our customer for using our parking lot car rental
