@@ -64,7 +64,7 @@ int main() {
     getline(cin, make);
     cout << "Enter the car model: ";
     getline(cin, model);
-    cout << "Enter the cra year: ";
+    cout << "Enter the car year: ";
     cin >> year;
     cin.ignore();
 
