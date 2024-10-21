@@ -19,4 +19,4 @@ class Car {
     string make;
     string model;
     int year;
-    level;
+    level level;
