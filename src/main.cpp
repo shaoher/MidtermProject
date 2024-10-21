@@ -20,3 +20,7 @@ class Car {
     string model;
     int year;
     level level;
+
+// now we are going to add public members. A public member is accessible from outside the class. 
+    public:
+        Car(string make, string model, int year) : make(make), model(model), year(year), level {}
