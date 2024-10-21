@@ -68,6 +68,13 @@ int main() {
     cin >> year;
     cin.ignore();
 
+// in this section we will create the car object and display the rental car information
+Car rentalCar(make, model, year);
+
+rentalCar.display();
+
+
+
 
 
 
