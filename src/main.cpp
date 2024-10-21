@@ -41,3 +41,14 @@ class Car {
                 return false;
             }
         }
+
+// in this section we will diaplay the car information and where it is located
+        void display() {
+            cout << "Car Make: " << make << "\nModel: " << model << "\nYear: " << year << endl;
+            if (assignLevel()) {
+                cout << "Parking Level: " << level << endl;
+            } else {
+                cout << "The make entered is unavailable." << endl;
+            }
+        }
+    };
